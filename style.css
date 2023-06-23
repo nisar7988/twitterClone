@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: black;
+}
+
+nav {
+
+    position: fixed;
+}
+
+.nav li img {
+    width: 3.4rem;
+    margin-right: 1.3vw;
+}
+
+.nav {
+
+    position: fixed;
+    margin-left: 12.1rem;
+    width: 24.5rem;
+    min-height: fit-content;
+
+
+}
+
+.nav li {
+
+    list-style: none;
+}
+
+.nav li a {
+    margin-bottom: 3vh;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #e7e9ea;
+}
+
+#logo {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 2.7vw;
+}
+
+.container {
+    margin-left: 36.6rem;
+
+    min-height: max-content;
+    min-width: max-content;
+    border-left: solid rgb(73, 72, 72) .001px;
+    border-right: solid rgb(66, 65, 65) .001px;
+}
+
+.start-profile {
+
+    height: max-content;
+    border-bottom: solid rgb(66, 65, 65) .001px;
+}
+
+.tweet {
+    margin-top: 6vh;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    ;
+    background-color: rgb(29, 155, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 15px;
+    width: 15rem;
+    height: 4rem;
+    border: solid rgb(29, 155, 240);
+    border-radius: 55px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.profile {
+    font-size: 1.4em;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 8rem;
+
+    border-radius: 44px;
+    height: 8rem;
+    width: auto;
+    display: flex;
+    margin-left: -5rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    ;
+
+}
+
+.dp img {
+    width: 4rem;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+#smMore {
+    margin-left: 8px;
+    height: 1.5em;
+}
+
+.bi-arrow-left {
+    font-size: 99px;
+}
+
+#tweet {
+    color: rgb(98, 96, 96);
+}
+
+.startHeader {
+    display: flex;
+}
+
+.nameHeader {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: white;
+    font-weight: 900;
+}
+.arow img{
+    width: 4rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#tweet {
+    font-size: 1.7rem;
+}
+
+.bi-arrow-left {
+    color: wheat;
+    font-size: 2vh;
+}
+
+
+.bg-image img {
+    margin-top: 3px;
+    width: 62rem;
+
+}
+
+.dpimg {
+    position: relative;
+    top: -6rem;
+    left: 1.4rem;
+}
+
+.dpimg img {
+    width: 13rem;
+    border-radius: 50%;
+}
+
+.follow {
+    display: flex;
+    position: relative;
+    left: 46rem;
+    top: -14rem;
+
+}
+
+
+
+
+
+#follow {
+    color: rgb(16, 16, 16);
+    font-weight: 550;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 3rem;
+}
+
+.info {
+    margin-left: 3rem;
+    position: relative;
+    top: -9rem;
+    color: rgb(254, 253, 252);
+}
+
+.follow img{
+ margin-bottom: 1px;
+    width: 4rem;
+    margin-right: 1rem;
+
+}
+.name {
+    display: flex;
+}
+
+.name h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.done img {
+    margin-left: .5vw;
+    width: 2rem;
+}
+
+.nameHeader img {
+    position: relative;
+    top: .5rem
+}
+
+.name-link {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+#calendar img {
+    margin-right: .4rem;
+    width: 1rem;
+}
+
+.name-follwing ul {
+    display: flex;
+
+}
+
+.name-follwing ul li {
+    margin-right: 1.5rem;
+    list-style: none;
+}
+
+.name-follwing ul li a {
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+
+.fl {
+    font-weight: unset;
+    color: rgb(108, 107, 107);
+}
+
+.followed img {
+    width: 3rem;
+
+    border-radius: 50%;
+}
+
+.followed a {
+
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.followed {
+    margin-top: 1.4rem;
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.btns {
+
+    width: max-content;
+    position: absolute;
+    top: 52rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.same {
+    padding-top: 3rem;
+    width: 16rem;
+    color: rgb(111, 109, 109);
+    align-items: center;
+    height: max-content;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+
+.post {
+    border-bottom: solid rgb(66, 65, 65) .001px;
+}
+
+.fstpost {
+    margin: 1rem 0 0 1.5rem;
+    display: flex;
+}
+
+.capt {
+    font-size: 1.8rem;
+    margin-left: 1vw;
+    color: white;
+    width: 44rem;
+}
+
+.image img {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.postimage img {
+    width: 33rem;
+    margin: 2rem 0 0 9rem;
+}
+
+.like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like img {
+    margin-right: .5vw;
+    width: 1.4vw;
+}
+
+.options {
+    color: white;
+    margin-top: 1rem;
+    margin-left: 8.6rem;
+    width: 44rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.same:hover {
+    cursor: pointer;
+    background-color: rgb(39, 35, 35);
+}
+
+.like:hover {
+    cursor: pointer;
+}
+
+#follow:hover {
+    background-color: rgb(174, 177, 179);
+}
+
+.cnt2nd {
+    margin-left: 2vw;
+    height: 100vh;
+    width: 25vw;
+    /* background-color: rgb(39, 38, 38)       ; */
+}
+.follow {
+margin-top: 1rem;
+}
+
+.search input {
+    background-color: rgb(32, 35, 39);
+    color: rgb(234, 234, 232);
+    font-size: 2vh;
+    padding-left: 2vw;
+    width: 24vw;
+    margin-left: .5vw;
+    height: 6vh;
+    border-radius: 4vh;
+}
+
+.search input:focus {
+    background-color: black;
+    border: solid 2px rgb(47, 186, 232);
+    outline-width: 0ch;
+}
+
+.yml {
+    padding: 1vh 1vw;
+    background-color: #16181c;
+    border-radius: 22px;
+    margin: 1vh .6vw;
+    width: max-content;
+}
+
+#you {
+    margin-bottom: 3vh;
+    color: #e7e9ea;
+}
+
+.rcd {
+
+    display: flex;
+
+}
+
+.ig img {
+    width: 3.5vw;
+    border-radius: 50%;
+}
+
+.ng a {
+    color: white;
+    text-decoration: none;
+}
+
+.ng {
+    font-size: 2.7vh;
+    color: white;
+    margin-left: 2vw;
+}
+
+.ng span {
+    font-size: 2.2vh;
+    color: rgb(167, 163, 163);
+}
+
+.flw button {
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-left: 5vw;
+    width: 6vw;
+    height: 5vh;
+    border-radius: 22px;
+}
+
+.flw button:hover {
+    background-color: #c0b9b9;
+}
+
+.show {
+
+    color: #1c7fc3;
+}
+
+.capt a {
+    color: white;
+}
+.footer{
+   
+    visibility: hidden;
+   background-color: black;
+  position: absolute;
+  left: 0rem;
+bottom: 0;
+    width: 100%;
+    height: 4rem;
+
+}
+.footer ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer ul li {
+    list-style:none;
+  
+}
+.footer img{
+width: 3rem;
+}
+
+
+/* //responsive */
+
+@media only screen and (max-width: 1000px) {
+    .search {
+        visibility: hidden;
+    }
+
+    .yml {
+        visibility: hidden;
+    }
+    .follow img{
+        background: none ; 
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .container{
+        
+        border-left: solid rgb(158, 156, 156) .01px;  
+        border-bottom: solid rgb(158, 156, 156) .01px;   
+        border-right: solid rgb(158, 156, 156) .01px;
+    }
+    .start-profile{
+    
+
+         
+        border-bottom: solid rgb(158, 156, 156) .01px;
+    
+    
+}
+}
+
+
+@media only screen and (max-width: 650px) {
+    .footer{
+        visibility: visible;
+     position: fixed;
+     width: 100%;
+    
+    
+     
+    }
+    .container{
+        
+        border-left: solid rgb(158, 156, 156) .01px;  
+        border-bottom: solid rgb(158, 156, 156) .01px;   
+        border-right: solid rgb(158, 156, 156) .01px;
+    }
+    
+.btns {
+
+  
+    position: absolute;
+    top: 53rem;
+  
+
+
+}
+    .options{
+        width: 40rem;
+        font-size: 1.3rem;
+    }
+  .like img{
+    margin-left: .9rem;
+    width: 2rem;
+  }
+    body{
+        overflow: hidden;
+    }
+    .container {
+        margin: 0 2rem;
+    }
+
+    nav {
+        visibility: hidden;
+    }
+
+    html {
+        font-size: 33px;
+    }
+
+ 
+
+}
+
+
+@media only screen and (max-width: 491px) {
+    html {
+        font-size: 27px;
+
+    }
+    .start-profile{
+    
+
+         
+            border-bottom: solid rgb(158, 156, 156) .01px;
+        
+        
+    }
+    .container{
+        
+        border-left: solid rgb(158, 156, 156) .01px;  
+        border-bottom: solid rgb(158, 156, 156) .01px;   
+        border-right: solid rgb(158, 156, 156) .01px;
+    }
+    
+.btns {
+
+  
+    position: absolute;
+    top: 53rem;
+  
+
+
+}
+}
+
+@media only screen and (max-width: 430px) {
+    .btns {
+
+  
+        position: absolute;
+        top: 52rem;
+      
+    
+    
+    }
+    html {
+        font-size: 25px;
+
+    }
+}
+
+@media only screen and (max-width: 404px) {
+    html {
+        font-size: 24px;
+    }
+    .follow{
+        margin-top: 2.7rem;
+    }
+}
+
+@media only screen and (max-width: 404px) {
+    html {
+        font-size: 22px;
+    }
+   
+}
+@media only screen and (max-width: 351px) {
+    
+    
+    html {
+        font-size: 20px;
+    }
+    .follow{
+        margin-top: 2.7rem;
+    }
+  
+}
+
+
+
